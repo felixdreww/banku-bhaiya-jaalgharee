@@ -24,7 +24,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --noconsole --name "Banku_Bhaiya_Jaal_Gharee" spidey.py
+          pyinstaller --onefile --noconsole --name "Banku_Bhaiya_Jaal_Gharee" spidey5.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
